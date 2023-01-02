@@ -38,6 +38,18 @@ struct MainView: View {
                     WeatherDayView(weekDay: "FRI", imageName: "cloud.rain.fill", temperature: 11)
                 }
                 Spacer()
+
+                Button {
+                    print("Button Pressed")
+                } label: {
+                    Text("Change Day Time")
+                        .font(.system(size: 17, weight: .medium, design: .default))
+                        .frame(width: 250, height: 45, alignment: .center)
+                        .background(Color.white)
+                        .cornerRadius(5)
+                }
+
+                Spacer()
             }
         }
     }
