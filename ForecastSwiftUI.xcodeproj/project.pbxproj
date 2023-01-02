@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A24C90742962664C00CA4403 /* ForecastSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C90732962664C00CA4403 /* ForecastSwiftUIApp.swift */; };
-		A24C90762962664C00CA4403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C90752962664C00CA4403 /* ContentView.swift */; };
+		A24C90762962664C00CA4403 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24C90752962664C00CA4403 /* MainView.swift */; };
 		A24C90782962664D00CA4403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24C90772962664D00CA4403 /* Assets.xcassets */; };
 		A24C907B2962664D00CA4403 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24C907A2962664D00CA4403 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		A24C90702962664C00CA4403 /* ForecastSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForecastSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24C90732962664C00CA4403 /* ForecastSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastSwiftUIApp.swift; sourceTree = "<group>"; };
-		A24C90752962664C00CA4403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A24C90752962664C00CA4403 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A24C90772962664D00CA4403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A24C907A2962664D00CA4403 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				A24C90732962664C00CA4403 /* ForecastSwiftUIApp.swift */,
-				A24C90752962664C00CA4403 /* ContentView.swift */,
+				A24C90752962664C00CA4403 /* MainView.swift */,
 				A24C90772962664D00CA4403 /* Assets.xcassets */,
 				A24C90792962664D00CA4403 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A24C90762962664C00CA4403 /* ContentView.swift in Sources */,
+				A24C90762962664C00CA4403 /* MainView.swift in Sources */,
 				A24C90742962664C00CA4403 /* ForecastSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
